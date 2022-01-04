@@ -42,6 +42,4 @@ const test = [
   new Date('Jan 1, 2022 23:59:59')
 ]
 
-const date = new Date('Dec 25, 2021')
-
 test.forEach(date => console.info(daysToXmas(date)))
